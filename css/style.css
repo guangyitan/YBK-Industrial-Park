@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-content {
-  max-width: 800px;
+  /* max-width: 800px; */
   animation: fadeIn 1s ease-out;
 }
 
@@ -345,6 +345,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--spacing-4);
 }
 
+.hero-title-suffix { 
+  font-size: 2rem; 
+}
+
+
 .hero p {
   font-size: 1.25rem;
   color: var(--light-grey);
@@ -359,6 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
   .hero h1 { font-size: 4rem; }
+  .hero-title-suffix { font-size: 3rem; }
 }
 
 /* Location Section */
