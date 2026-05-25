@@ -429,6 +429,31 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
 }
 
+.bird-view-map {
+  margin-top: var(--spacing-8);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  background: var(--white);
+  line-height: 0;
+}
+
+.bird-view-map img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.bird-view-map-copy {
+  margin-top: var(--spacing-6);
+  line-height: 1.7;
+}
+
+.bird-view-map-copy .copy-highlight {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 /* Features Grid */
 .feature-card {
   background: var(--white);
@@ -529,6 +554,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .tab-content.active {
   display: block;
+}
+
+.site-layout-map {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  background: var(--white);
+  line-height: 0;
+}
+
+.site-layout-map img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .spec-list {
