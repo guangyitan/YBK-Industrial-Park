@@ -337,7 +337,7 @@ h6 {
   display: flex;
   align-items: center;
   padding-top: 80px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 2, 3, 0.8)), url('../Assets/Sg%20Rambai%20Factory%2023062025.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 2, 3, 0.8)), url('../Assets/Sg-Rambai-Factory.jpg') center/cover no-repeat;
   color: var(--white);
 }
 
