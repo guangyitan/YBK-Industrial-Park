@@ -370,13 +370,13 @@ h6 {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--white);
   margin-bottom: var(--spacing-4);
 }
 
 .hero-title-suffix {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 
@@ -575,6 +575,12 @@ h6 {
   border-radius: var(--radius-md);
   cursor: pointer;
   transition: all var(--transition-fast);
+}
+
+@media (max-width: 425px) {
+  .tab-btn {
+    font-size: 0.8rem;
+  }
 }
 
 .tab-btn.active {
